@@ -1,7 +1,7 @@
 {
   "name": "top-git-users",
   "version": "1.0.0",
-  "description": "",
+  "description": "Most active GitHub users",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
