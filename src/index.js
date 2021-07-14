@@ -1,11 +1,5 @@
-import { render } from "react-dom"
+import { render } from "react-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './components/App.jsx';
 
-render(<h2>Hey!</h2>, document.getElementById("root"))
-
-const laptops = {
-    acer: 1,
-    lenova: 3,
-    samsung: 2
-}
-
-console.log(laptops)
+render(<App />, document.getElementById("root"))
